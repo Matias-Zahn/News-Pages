@@ -62,11 +62,9 @@ img{
 }
 .navbar{
     
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    place-items: center;
-
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
     position: fixed;
     width: 100%;
